@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "PPColorView.h"
 
-@interface ViewController ()
+@interface ViewController ()<PPColorViewDelegate>
 
 @end
 
@@ -17,11 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    PPColorView *pp = [[PPColorView alloc]initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, 40) defaultHexa:@"0xFF00008B"];
+    pp.delegate = self;
+    [self.view addSubview:pp];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)didColorSelected:(UIColor *)color{
+    self.view.backgroundColor = color;
 }
 
 @end

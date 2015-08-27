@@ -14,6 +14,14 @@
 		AF4BD5F01B70926500997DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD5EF1B70926500997DA2 /* Images.xcassets */; };
 		AF4BD5F31B70926500997DA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD5F11B70926500997DA2 /* LaunchScreen.xib */; };
 		AF4BD5FF1B70926500997DA2 /* colorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD5FE1B70926500997DA2 /* colorDemoTests.m */; };
+		AF4BD60B1B7092AE00997DA2 /* PPColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD60A1B7092AE00997DA2 /* PPColorView.m */; };
+		AF4BD60E1B70993800997DA2 /* GzColors.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD60D1B70993800997DA2 /* GzColors.m */; };
+		AF4BD6101B70994600997DA2 /* ColorPopoverLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD60F1B70994600997DA2 /* ColorPopoverLocalizable.strings */; };
+		AF4BD6161B709AA100997DA2 /* PPColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD6151B709AA100997DA2 /* PPColorButton.m */; };
+		AF4BD6191B70A41200997DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BD6181B70A41200997DA2 /* UIKit.framework */; };
+		AF4BD61B1B70A41A00997DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4BD61A1B70A41A00997DA2 /* Foundation.framework */; };
+		AF5B641C1B70B41D00385F42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B641B1B70B41D00385F42 /* CoreGraphics.framework */; };
+		AF5B641E1B70B42B00385F42 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5B641D1B70B42B00385F42 /* libz.1.1.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		AF4BD5F81B70926500997DA2 /* colorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4BD5FD1B70926500997DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4BD5FE1B70926500997DA2 /* colorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorDemoTests.m; sourceTree = "<group>"; };
+		AF4BD6091B7092AE00997DA2 /* PPColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPColorView.h; sourceTree = "<group>"; };
+		AF4BD60A1B7092AE00997DA2 /* PPColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPColorView.m; sourceTree = "<group>"; };
+		AF4BD60C1B70993800997DA2 /* GzColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GzColors.h; sourceTree = "<group>"; };
+		AF4BD60D1B70993800997DA2 /* GzColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GzColors.m; sourceTree = "<group>"; };
+		AF4BD60F1B70994600997DA2 /* ColorPopoverLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = ColorPopoverLocalizable.strings; sourceTree = "<group>"; };
+		AF4BD6141B709AA100997DA2 /* PPColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPColorButton.h; sourceTree = "<group>"; };
+		AF4BD6151B709AA100997DA2 /* PPColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPColorButton.m; sourceTree = "<group>"; };
+		AF4BD6171B70A38500997DA2 /* colorDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "colorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AF4BD6181B70A41200997DA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF4BD61A1B70A41A00997DA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF5B641B1B70B41D00385F42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF5B641D1B70B42B00385F42 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5B641E1B70B42B00385F42 /* libz.1.1.3.dylib in Frameworks */,
+				AF5B641C1B70B41D00385F42 /* CoreGraphics.framework in Frameworks */,
+				AF4BD61B1B70A41A00997DA2 /* Foundation.framework in Frameworks */,
+				AF4BD6191B70A41200997DA2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,10 @@
 		AF4BD5D61B70926500997DA2 = {
 			isa = PBXGroup;
 			children = (
+				AF5B641D1B70B42B00385F42 /* libz.1.1.3.dylib */,
+				AF5B641B1B70B41D00385F42 /* CoreGraphics.framework */,
+				AF4BD61A1B70A41A00997DA2 /* Foundation.framework */,
+				AF4BD6181B70A41200997DA2 /* UIKit.framework */,
 				AF4BD5E11B70926500997DA2 /* colorDemo */,
 				AF4BD5FB1B70926500997DA2 /* colorDemoTests */,
 				AF4BD5E01B70926500997DA2 /* Products */,
@@ -81,6 +109,7 @@
 		AF4BD5E11B70926500997DA2 /* colorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF4BD6081B70927600997DA2 /* PPColorView */,
 				AF4BD5E61B70926500997DA2 /* AppDelegate.h */,
 				AF4BD5E71B70926500997DA2 /* AppDelegate.m */,
 				AF4BD5E91B70926500997DA2 /* ViewController.h */,
@@ -98,6 +127,7 @@
 			children = (
 				AF4BD5E31B70926500997DA2 /* Info.plist */,
 				AF4BD5E41B70926500997DA2 /* main.m */,
+				AF4BD6171B70A38500997DA2 /* colorDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +147,20 @@
 				AF4BD5FD1B70926500997DA2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4BD6081B70927600997DA2 /* PPColorView */ = {
+			isa = PBXGroup;
+			children = (
+				AF4BD60C1B70993800997DA2 /* GzColors.h */,
+				AF4BD60D1B70993800997DA2 /* GzColors.m */,
+				AF4BD6091B7092AE00997DA2 /* PPColorView.h */,
+				AF4BD60A1B7092AE00997DA2 /* PPColorView.m */,
+				AF4BD60F1B70994600997DA2 /* ColorPopoverLocalizable.strings */,
+				AF4BD6141B709AA100997DA2 /* PPColorButton.h */,
+				AF4BD6151B709AA100997DA2 /* PPColorButton.m */,
+			);
+			name = PPColorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +246,7 @@
 				AF4BD5EE1B70926500997DA2 /* Main.storyboard in Resources */,
 				AF4BD5F31B70926500997DA2 /* LaunchScreen.xib in Resources */,
 				AF4BD5F01B70926500997DA2 /* Images.xcassets in Resources */,
+				AF4BD6101B70994600997DA2 /* ColorPopoverLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4BD60E1B70993800997DA2 /* GzColors.m in Sources */,
 				AF4BD5EB1B70926500997DA2 /* ViewController.m in Sources */,
 				AF4BD5E81B70926500997DA2 /* AppDelegate.m in Sources */,
+				AF4BD60B1B7092AE00997DA2 /* PPColorView.m in Sources */,
 				AF4BD5E51B70926500997DA2 /* main.m in Sources */,
+				AF4BD6161B709AA100997DA2 /* PPColorButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +397,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorDemo/colorDemo-Prefix.pch";
 				INFOPLIST_FILE = colorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,7 +410,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colorDemo/colorDemo-Prefix.pch";
 				INFOPLIST_FILE = colorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +472,7 @@
 				AF4BD6041B70926500997DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4BD6051B70926500997DA2 /* Build configuration list for PBXNativeTarget "colorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				AF4BD6071B70926500997DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
