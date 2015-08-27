@@ -12,7 +12,6 @@
 		AF4BD5EB1B70926500997DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD5EA1B70926500997DA2 /* ViewController.m */; };
 		AF4BD5EE1B70926500997DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD5EC1B70926500997DA2 /* Main.storyboard */; };
 		AF4BD5F01B70926500997DA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD5EF1B70926500997DA2 /* Images.xcassets */; };
-		AF4BD5F31B70926500997DA2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4BD5F11B70926500997DA2 /* LaunchScreen.xib */; };
 		AF4BD5FF1B70926500997DA2 /* colorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD5FE1B70926500997DA2 /* colorDemoTests.m */; };
 		AF4BD60B1B7092AE00997DA2 /* PPColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD60A1B7092AE00997DA2 /* PPColorView.m */; };
 		AF4BD60E1B70993800997DA2 /* GzColors.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4BD60D1B70993800997DA2 /* GzColors.m */; };
@@ -44,7 +43,6 @@
 		AF4BD5EA1B70926500997DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF4BD5ED1B70926500997DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4BD5EF1B70926500997DA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		AF4BD5F21B70926500997DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AF4BD5F81B70926500997DA2 /* colorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4BD5FD1B70926500997DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4BD5FE1B70926500997DA2 /* colorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colorDemoTests.m; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				AF4BD5EA1B70926500997DA2 /* ViewController.m */,
 				AF4BD5EC1B70926500997DA2 /* Main.storyboard */,
 				AF4BD5EF1B70926500997DA2 /* Images.xcassets */,
-				AF4BD5F11B70926500997DA2 /* LaunchScreen.xib */,
 				AF4BD5E21B70926500997DA2 /* Supporting Files */,
 			);
 			path = colorDemo;
@@ -244,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4BD5EE1B70926500997DA2 /* Main.storyboard in Resources */,
-				AF4BD5F31B70926500997DA2 /* LaunchScreen.xib in Resources */,
 				AF4BD5F01B70926500997DA2 /* Images.xcassets in Resources */,
 				AF4BD6101B70994600997DA2 /* ColorPopoverLocalizable.strings in Resources */,
 			);
@@ -298,14 +294,6 @@
 				AF4BD5ED1B70926500997DA2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AF4BD5F11B70926500997DA2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF4BD5F21B70926500997DA2 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
